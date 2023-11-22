@@ -1,0 +1,71 @@
+/***********************************************************/
+/*          Trabajo Primer Trimestre                       */
+/*          author: Jonathan Garcia                        */
+/*          version: 1.0                                   */
+/*          comments: Trabajo de clase final de trimestre  */
+/***********************************************************/
+
+@font-face { 
+    font-family: titulo ;
+    src: url(../fonts/VectisW01-Regular\ Regular.ttf);
+}
+@font-face {
+    font-family: textonormal;
+    src: url(../fonts/agoestoesan.ttf);
+} 
+
+* {box-sizing: border-box;} 
+
+body {margin: 0;padding:0; 
+    background-color: #a0a07c;
+    font-family: textonormal;}
+
+#wrapper {background-color: #E4D2B1;
+        width:80%;             
+        margin:auto}   
+
+p {
+    margin-left: 40px;
+    padding-top: 60px;
+    padding-left: -50px;
+}
+
+img {
+    height: 30vh;        
+    background-position: center;
+    position:relative;  
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: -10px;
+}
+section {
+    padding-top: 40px;
+}
+
+/************************************** HERO SCTION *************/
+
+#hero {background-image: url(../img/Men’s-Fashion-Style-in-the-1920s.jpg);
+    height: 100vh;       
+    background-size: cover;
+    background-position: 66%;
+    position:relative;    
+}
+#titulo{
+    font-size: 30px;
+    font-family: titulo;
+    color: white;
+    margin-left: 10px;
+    padding-top: 0%;
+}
+#hero button {background-color:#E4D2B1;
+                color: black;
+                font-weight: bold;
+                padding: 5px 10px;
+                border: none;
+                border-radius: 10px;
+                position:absolute;  
+                top:18% ;
+                left:15% ;
+                transform: translate(-50%,-50%);  
+
+}

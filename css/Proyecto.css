@@ -14,6 +14,7 @@
     src: url(../fonts/agoestoesan.ttf);
 } 
 
+/************* estilo general ****************/
 * {box-sizing: border-box;} 
 
 body {margin: 0;padding:0; 
@@ -68,4 +69,32 @@ section {
                 left:15% ;
                 transform: translate(-50%,-50%);  
 
+}
+
+/*************************** INTRO SECTION (GRID-3) ********************/
+
+.grid-3 {display: grid;
+    grid-template-columns: auto auto;}  /****** MOBILE FIRST ***/
+
+.col-3 {padding: 4%;
+    }
+
+#introimg {width: 80%;
+        display: block;
+        margin: auto;}
+
+
+
+
+
+/*************** responsividad ************/
+
+@media only screen and (width>650px){    /******** TABLET **********/
+    #wrapper {width: 80%;} 
+    .grid-3 {grid-template-columns: auto auto;}
+
+}
+
+@media only screen and (width>900px){    /*************** COMPUTER *********/
+    .grid-3 {grid-template-columns: auto auto auto;}
 }

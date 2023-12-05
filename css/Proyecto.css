@@ -15,7 +15,7 @@
 } 
 
 /************* estilo general ****************/
-* {box-sizing: border-box;} 
+/* * {box-sizing: border-box;} */ 
 
 body {margin: 0;padding:0; 
     background-color: #a0a07c;
@@ -31,14 +31,14 @@ body {margin: 0;padding:0;
     padding-left: -50px;
 }
  */
-img {
-    height: 30vh;        
+/* img {
+    height: 30vh;         
     background-position: center;
     position:relative;  
     margin-left: 40px;
     margin-right: 40px;
     padding-top: -10px;
-}
+} */
 /* section {
     padding-top: 40px;
 }
@@ -65,7 +65,7 @@ img {
                 border: none;
                 border-radius: 10px;
                 position:absolute;  
-                top:18% ;
+                top:19% ;
                 left:15% ;
                 transform: translate(-50%,-50%);  
 
@@ -74,7 +74,7 @@ img {
 /*************************** INTRO SECTION (GRID-3) ********************/
 
 .grid-3 {display: grid;
-    grid-template-columns: auto auto;}  /****** MOBILE FIRST ***/
+    grid-template-columns: auto;}  /****** MOBILE FIRST ***/
 
 .col-3 {padding: 4%;
     }
@@ -84,17 +84,31 @@ img {
         margin: auto;}
 
 
+/*************** estilo de la card dentro del grid-3 *********/
 
+.card {border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4%;
+    cursor: url(../img/pluma-removebg-preview.png);}
 
+.card:hover {box-shadow: 3px 3px 5px #808080;}
+
+.card img {width: 100%;}
+
+/************* cursor ************/
+/* img {
+cursor: url(../img/pluma-removebg-preview.png);
+} */
 
 /*************** responsividad ************/
 
 @media only screen and (width>650px){    /******** TABLET **********/
     #wrapper {width: 80%;} 
-    .grid-3 {grid-template-columns: auto auto;}
+    .grid-3 {grid-template-columns: 50% 50%;}
 
 }
 
 @media only screen and (width>900px){    /*************** COMPUTER *********/
-    .grid-3 {grid-template-columns: auto auto auto;}
+    .grid-3 {grid-template-columns: 33.33% 33.33% 33.33%;}
 }

@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
+
     <link rel="stylesheet" href="./css/Proyecto.css">
     <link rel="shortcut icon" href="./img/fedora_39176.png" type="image/x-icon">
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 <body>
     <div id="wrapper"> 
-        <nav>Aqui va a ir la barra de navegacion</nav>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#" class="active">Home</a>
+                <a href="#intro">Introduction</a>
+                <a href="#seasons">Seasons</a>
+                <a href="#predictions">Predictions</a>
+                <a href="#gallery">Gallery</a>
+                
+                <!-- javascript:void(0) desactiva el comportamiento default del vinculo -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
         <section id="hero">
             <button>Sumergete</button> <!-- Este boton llevaria directamente a la parte de introduccion saltadonse las imagenes explicativas-->
             <p id="titulo">Moda Masculina desde 1910 hasta 1950</p>
@@ -62,5 +81,10 @@
     <section>Aqui ira la decada de los 50´s</section>
     <footer>Aquí va el footer</footer>
     
+
+
+    <!-- enlace al archivo de todos los js del website -->
+    <script src="./js/funtions.js"></script>
+
 </body>
 </html>

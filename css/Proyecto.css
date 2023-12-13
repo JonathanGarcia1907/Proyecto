@@ -346,7 +346,7 @@ section {
 /********************** Accesorios section *********************/
 
 #accesorios{margin-left:50%;
-          transform: translate(-50%);}
+            transform: translate(-50%);}
 
 /* # The Rotating Marker # */
 details summary::-webkit-details-marker { display: none; }

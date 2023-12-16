@@ -69,7 +69,7 @@
 </h3>
 <p dir="auto">
   <a target="_blank" rel="noopener noreferrer" href="/JonathanGarcia1907/Proyecto/blob/main/bm-readme/hero.png">
-    <img src="/JonathanGarcia1907/Proyecto/raw/main/bm-readme/hero.png" alt="imagen de hero section" style="width: 50%; max-width: 100%;">
+    <img src="JonathanGarcia1907/Proyecto/blob/main/bm-readme/hero.png" alt="imagen de hero section" style="width: 50%; max-width: 100%;">
   </a>
 </p>
 <p dir="auto">He utilizado una imagen de fondo tomada de https://despedidasmolamola.com/los-mejores-chaques-para-bodas-en-madrid/ que se adapta fácilmente a diferentes dispositivos.<br>

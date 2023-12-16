@@ -82,7 +82,7 @@ Esta imagen muestra como a pesar de parecer demasiado formal, la ropa clasica se
 </h3>
 <p dir="auto">
   <a target="_blank" rel="noopener noreferrer" href="/JonathanGarcia1907/Proyecto/blob/main/bm-readme/decadas.png">
-    <img src="/JonathanGarcia1907/Proyecto/raw/main/bm-readme/decadas.png" alt="imagen de hero section" style="width: 50%; max-width: 100%;">
+    <img src="https://github.com/JonathanGarcia1907/Proyecto/blob/main/bm-readme/decadas.png" alt="imagen de hero section" style="width: 50%; max-width: 100%;">
   </a>
 </p>
 <p dir="auto">He dispuesto 6 cards en las que se encuentra una imagen, un texto explicativo y un video explicativo.</p>
@@ -97,7 +97,7 @@ Esta imagen muestra como a pesar de parecer demasiado formal, la ropa clasica se
 </h3>
 <p dir="auto">
   <a target="_blank" rel="noopener noreferrer" href="/JonathanGarcia1907/Proyecto/blob/main/bm-readme/accesorios.png">
-    <img src="/JonathanGarcia1907/Proyecto/raw/main/bm-readme/tejido.png" alt="imagen de tejido section" style="width: 50%; max-width: 100%;">
+    <img src="https://github.com/JonathanGarcia1907/Proyecto/blob/main/bm-readme/tejido.png" alt="imagen de tejido section" style="width: 50%; max-width: 100%;">
   </a>
 </p>
 <p dir="auto">He dispuesto un carrusel</p>
@@ -111,7 +111,7 @@ Esta imagen muestra como a pesar de parecer demasiado formal, la ropa clasica se
 </h3>
 <p dir="auto">
   <a target="_blank" rel="noopener noreferrer" href="/JonathanGarcia1907/Proyecto/blob/main/bm-readme/accesorios.png">
-    <img src="/JonathanGarcia1907/Proyecto/raw/main/bm-readme/accesorios.png" alt="imagen de accesorios section" style="width: 50%; max-width: 100%;">
+    <img src="https://github.com/JonathanGarcia1907/Proyecto/blob/main/bm-readme/accesorios.png" alt="imagen de accesorios section" style="width: 50%; max-width: 100%;">
   </a>
 </p>
 <p dir="auto">He dispuesto un acordeon que tiene un grid de 2</p>

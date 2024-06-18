@@ -80,105 +80,80 @@ a .fa-arrow-circle-up {color:gray;}
 
 
 
-/************************************** HERO SCTION *************/
+/************************************** HERO SECTION *************/
 
-#hero {background-image: url(../img/Men’s-Fashion-Style-in-the-1920s.jpg);
-  height: 100vh;       
+#hero {
+  background-image: url(../img/Men’s-Fashion-Style-in-the-1920s.jpg);
+  height: 100vh;
   background-size: cover;
   background-position: 66%;
-  position:relative;    
+  position: relative;
 }
-#titulo{
-  font-size: 30px;
-  font-family: titulo;
-  color: white;
-  margin-left: 10px;
-  padding-top: 0%;
-}
-#hero button {background-color:#E4D2B1;
-              color: black;
-              font-weight: bold;
-              padding: 5px 10px;
-              border: none;
-              border-radius: 10px;
-              position:absolute;  
-              top:19% ;
-              left:15% ;
-              transform: translate(-50%,-50%);  
 
+#titulo {
+  font-size: 30px;
+  font-family: Arial, sans-serif; 
+  color: white;
+  margin-top: 20%;
 }
+
+#hero .btn {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 
 /*************************** decadas SECTION (GRID-3) ********************/
-
-.grid-3 {display: grid;
-  grid-template-columns: auto;}  /****** MOBILE FIRST ***/
-
-.col-3 {padding: 4%;
-  }
-
-#decadasimg {width: 80%;
-      display: block;
-      margin: auto;}
-
-
-/*************** estilo de la card dentro del grid-3 *********/
-
-.card {border: 1px solid gray;
+.card {
+  border: 1px solid gray;
   background-color: white;
   border-radius: 10px;
-  padding: 4%;
-  cursor: url(../img/pluma-removebg-preview.png);}
+  padding: 10%;
+  margin-bottom: 25px; /* Añadir margen inferior para espacio adicional */
+}
 
-.card:hover {box-shadow: 3px 3px 5px #808080;}
+.card:hover {
+  box-shadow: 3px 3px 5px #808080;
+}
 
-.card img {width: 100%;}
+.card img {
+  width: 100%;
+}
 
-/******************Estilo del texto dentro de la card ***********************/
 .texto_card {
   margin: 3%;
 }
 
 /******************* estilo del video dentro de la card ***************/
-#decadas .container {
-position: relative;
-overflow: hidden;
-width: 100%;
-padding-top: 56.25%;
-}
-
-/* Then style the iframe to fit in the container div with full height and width */
-#decadas .responsive-iframe {
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-width: 100%;
-height: 100%;
-}
-
-
-/************* cursor ************/
-.card {
-    cursor: url(../img/pluma-removebg-preview.png);
+.container .embed-responsive {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
 }
 
 
 /********************** Tejidos section ********************/
-#tejidos {background: #e1c796;
+#tejidos {
+  background: #e1c796;
   padding: 50px 0;
 }
+
 .contenedor_imagen {
   max-width: 1044px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
 .carousel {
   display: block;
   text-align: left;
   position: relative;
   margin-bottom: 22px;
 }
+
 .carousel > input {
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
@@ -189,42 +164,47 @@ height: 100%;
   padding: 0;
   position: absolute;
 }
-.carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
-  margin-left: -500%;
-}
+
 .carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -400%;
 }
+
 .carousel > input:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -300%;
 }
+
 .carousel > input:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -200%;
 }
+
 .carousel > input:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -100%;
 }
+
 .carousel > input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: 0%;
 }
+
 .carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
+
 .carousel > input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
+
 .carousel > input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
+
 .carousel > input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
+
 .carousel > input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
-.carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
-  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
-}
+
 .carousel__slides {
   position: relative;
   z-index: 1;
@@ -235,6 +215,7 @@ height: 100%;
   box-sizing: border-box;
   display: flex;
 }
+
 .carousel__slide {
   position: relative;
   display: block;
@@ -247,21 +228,25 @@ height: 100%;
   box-sizing: border-box;
   white-space: normal;
 }
+
 .carousel__slide figure {
   display: flex;
   margin: 0;
 }
-.carousel__slide #tejidos div {
+
+.carousel__slide div {
   position: relative;
   width: 100%;
 }
-.carousel__slide #tejidos div:before {
+
+.carousel__slide div:before {
   display: block;
   content: "";
   width: 100%;
   padding-top: 66.6666666667%;
 }
-.carousel__slide #tejidos div > img {
+
+.carousel__slide div > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -270,11 +255,13 @@ height: 100%;
   width: 100%;
   height: 100%;
 }
-.carousel__slide #tejidos img {
+
+.carousel__slide img {
   display: block;
   flex: 1 1 auto;
   object-fit: cover;
 }
+
 .carousel__slide figcaption {
   align-self: flex-end;
   padding: 20px 20px 0 20px;
@@ -282,14 +269,13 @@ height: 100%;
   width: 25%;
   min-width: 150px;
 }
+
 .carousel__slide .credit {
   margin-top: 1rem;
   color: rgba(0, 0, 0, 0.5);
   display: block;
 }
-.carousel__slide.scrollable {
-  overflow-y: scroll;
-}
+
 .carousel__thumbnails {
   list-style: none;
   padding: 0;
@@ -297,26 +283,31 @@ height: 100%;
   display: flex;
   margin: 0 -10px;
 }
+
 .carousel__slides + .carousel__thumbnails {
   margin-top: 20px;
 }
-.carousel__thumbnails #tejidos li {
+
+.carousel__thumbnails li {
   flex: 1 1 auto;
-  max-width: calc((100% / 6) - 20px);
+  max-width: calc((100% / 5) - 20px);
   margin: 0 10px;
   transition: all 300ms ease-in-out;
 }
-.carousel__thumbnails #tejidos label {
+
+.carousel__thumbnails label {
   display: block;
   position: relative;
 }
-.carousel__thumbnails #tejidos label:before {
+
+.carousel__thumbnails label:before {
   display: block;
   content: "";
   width: 100%;
   padding-top: 100%;
 }
-.carousel__thumbnails #tejidos label > img {
+
+.carousel__thumbnails label > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -325,219 +316,246 @@ height: 100%;
   width: 100%;
   height: 100%;
 }
-.carousel__thumbnails #tejidos label:hover, .carousel__thumbnails #tejidos label:focus {
+
+.carousel__thumbnails label:hover,
+.carousel__thumbnails label:focus {
   cursor: pointer;
 }
-.carousel__thumbnails #tejidos label:hover img, .carousel__thumbnails #tejidos label:focus img {
+
+.carousel__thumbnails label:hover img,
+.carousel__thumbnails label:focus img {
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
   transition: all 300ms ease-in-out;
 }
-.carousel__thumbnails #tejidos img {
+
+.carousel__thumbnails img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-
 /********************** Accesorios section *********************/
 
-#accesorios{margin-left:50%;
-            transform: translate(-50%);}
+#accesorios {
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 50px; /* Margen superior */
+  margin-bottom: 50px; /* Margen inferior */
+}
 
 /* # The Rotating Marker # */
 details summary::-webkit-details-marker { display: none; }
 summary::before {
-font-family: "Hiragino Mincho ProN", "Open Sans", sans-serif;
-content: "▶";
-position: absolute;
-top: 1rem;
-left: 0.8rem;
-transform: rotate(0);
-transform-origin: center;
-transition: 0.2s transform ease;
+  font-family: "Hiragino Mincho ProN", "Open Sans", sans-serif;
+  content: "▶";
+  position: absolute;
+  top: 1rem;
+  left: 0.8rem;
+  transform: rotate(0);
+  transform-origin: center;
+  transition: 0.2s transform ease;
 }
 details[open] > summary:before {
-transform: rotate(90deg);
-transition: 0.45s transform ease;
+  transform: rotate(90deg);
+  transition: 0.45s transform ease;
 }
 
 /* # The Sliding Summary # */
 details { overflow: hidden; }
 details summary {
-position: relative;
-z-index: 10;
+  position: relative;
+  z-index: 10;
 }
 @keyframes details-show {
-from {
-  margin-bottom: -80%;
-  opacity: 0;
-  transform: translateY(-100%);
-}
+  from {
+      margin-bottom: -80%;
+      opacity: 0;
+      transform: translateY(-100%);
+  }
 }
 details > *:not(summary) {
-animation: details-show 500ms ease-in-out;
-position: relative;
-z-index: 1;
-transition: all 0.3s ease-in-out;
-color: transparent;
-overflow: hidden;
+  animation: details-show 500ms ease-in-out;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  color: transparent;
+  overflow: hidden;
 }
 details[open] > *:not(summary) { color: inherit; }
 
-
 /* # Just Some Pretty Styles # */
-body { font-family: "Open Sans", sans-serif; padding-bottom: 400px; }
 img { max-width: 100%; }
 p { margin: 0; padding-bottom: 10px; }
 p:last-child { padding: 0; }
 details {
-max-width: 500px;
-box-sizing: border-box;
-margin-top: 5px;
-background: white;
+  max-width: 500px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  background: white;
 }
 summary {
-border: 4px solid transparent;
-outline: none;
-padding: 1rem;
-display: block;
-background: #666;
-color: white;
-padding-left: 2.2rem;
-position: relative;
-cursor: pointer;
+  border: 4px solid transparent;
+  outline: none;
+  padding: 1rem;
+  display: block;
+  background: #666;
+  color: white;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
 }
 details[open] summary,
 summary:hover {
-color: #FFCA28;
-background: #444;
+  color: #FFCA28;
+  background: #444;
 }
 summary:hover strong,
 details[open] summary strong,
 summary:hover::before,
 details[open] summary::before {
-color: #FFA128;
+  color: #FFA128;
 }
 .content {
-padding: 10px;
-border: 2px solid #888;
-border-top: none;
+  padding: 10px;
+  border: 2px solid #888;
+  border-top: none;
 }
 
 /******************  Sombreros (GRID-2) ************************/
 
-.grid-2 {display:grid;
-grid-template-columns: 100%;} /*** MOBILE FIRST ****/
+@media (min-width: 768px) {
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+  }
 
-.col-2 {padding:4%;}
+  .col-md-6 {
+      padding: 4%;
+  }
+}
 
-#introimg {width:80%;
-  display:block;
-  margin:auto;}
+#introimg {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
 
+/******************** Contacto *******************************/
 
+section#contacto {
+  background-color: #e1c796;
+  padding-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.invalid-feedback {
+  display: none;
+  color: red;
+}
+
+.form-control.is-invalid {
+  border-color: red;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
 
 /******************** footer *****************************************/
-footer {background-color: black;
-color:white;}
-.grid-3d {
-   display:grid;
-   grid-template-columns: 50% 50%; 
-
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-footer h3 {margin:20px 0;}
-
-footer .fa {
-padding: 15px 10px;
-font-size: 1.5em;
-width: 50px;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;
-border-radius:50%;
+footer h3 {
+  margin: 20px 0;
+  cursor: pointer;
 }
-  
-footer a {color:white;
-  text-decoration: none;}
 
-/****** redes sociales en footer *****/
-footer .fa-facebook {background-color:#3B5998}
+footer a {
+  color: white;
+  text-decoration: none;
+}
 
-footer .fa-twitter {background-color:#55ACEE ;}
+footer a p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  border: hidden;
+  padding-left: 10px;
+  transition: 1s;
+}
 
-footer .fa-whatsapp {background-color: #25D366;}
+footer a p:hover {
+  color: rgb(196, 195, 195);
+  border-left: 3px solid white;
+}
 
 /******* créditos ******************/
 
 /* The Modal (background) */
 .modal {
-display: none; /* Hidden by default */
-position: fixed; /* Stay in place */
-z-index: 1; /* Sit on top */
-left: 10%;
-top: 0;
-width: 80%; /* Full width */
-height: 100%; /* Full height */
-overflow: auto; /* Enable scroll if needed */
-background-color: rgb(0,0,0); /* Fallback color */
-background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-color:black;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 10%;
+  top: 0;
+  width: 80%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  color: black;
 }
 
 /* Modal Content/Box */
 .modal-content {
-background-color: #fefefe;
-margin: 15% auto; /* 15% from the top and centered */
-padding: 20px;
-border: 1px solid #888;
-width: 80%; /* Could be more or less, depending on screen size */
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
 }
 
-.enlaze{color: black;}
-
-/* The Close Button */
 .close {
-color: #aaa;
-float: right;
-font-size: 28px;
-font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-color: black;
-text-decoration: none;
-cursor: pointer;
-} 
-
-#myBtn {cursor:pointer;}
-
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* Then style the iframe to fit in the container div with full height and width */
 footer .responsive-iframe {
-position: absolute;
-top: 10%;     /************ se baja un 10% (y queda otro 10% abajo) *******/
-left: 10%;    /************ se mueve un 10% (y queda otro 10% abajo) *******/
-bottom: 0;
-right: 0;
-width: 80%;   /**************  en vez de al 100%, deja libre un 20% *****/
-height: 80%;  /************* de alto igual ****************/
+  position: absolute;
+  top: 10%;     
+  left: 10%;    
+  bottom: 0;
+  right: 0;
+  width: 80%;   
+  height: 80%;  
 }
-
-footer a p {font-size:1.2em;
-    margin-bottom:15px;
-    border:hidden;
-    padding-left:10px;
-    transition:1s;}
-
-footer a p:hover {color:rgb(196, 195, 195);
-          border-left:3px solid white;}
-
-
-
-
 
 /*************** responsividad ************/
 

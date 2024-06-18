@@ -185,7 +185,7 @@ Esta imagen muestra como a pesar de parecer demasiado formal, la ropa clasica se
     </svg>
   </a>Videos
 </h3>
-<p dir="auto">Todos los videos pertenecen a YouTube</p>
+<p dir="auto">Todos los videos pertenecen a sus respectivos canales y estan subidos a YouTube</p>
 "..................."
 <h2 id="user-content-snippets" tabindex="-1" dir="auto">
   <a id="user-content-code-snippets" class="anchor" aria-hidden="true" tabindex="-1" href="#code-snippets">

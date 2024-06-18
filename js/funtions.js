@@ -60,4 +60,4 @@ window.onclick = function(event) {
       }, false);
     });
   }, false);
-})();
+});
